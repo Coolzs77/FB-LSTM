@@ -397,7 +397,7 @@ if __name__ == '__main__':
     parser.add_argument('-feature', type=str, default='MS', help='[M, S, MS],多元预测多元,单元预测单元,多元预测单元')
 
     # learning
-    parser.add_argument('-lr', type=float, default=0.005, help="学习率")
+    parser.add_argument('-lr', type=float, default=0.01, help="学习率")
     parser.add_argument('-drop_out', type=float, default=0.05, help="随机丢弃概率,防止过拟合")
     parser.add_argument('-epochs', type=int, default=30, help="训练轮次")
     parser.add_argument('-batch_size', type=int, default=24, help="批次大小")
